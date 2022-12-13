@@ -1,6 +1,4 @@
--- Active: 1670859966277@@127.0.0.1@3306@secao04
-
--- DQL -> Data Query Language studies and pratice
+-- DQL -> Data Query Language: Consultas no banco de dados (SELECT)
 CREATE DATABASE secao04;
 USE secao04;
 
@@ -20,7 +18,7 @@ CREATE TABLE produto(
     FOREIGN KEY (codigo_tipo) REFERENCES tipos_produto(codigo)   
 );
 
--- inserts
+-- inserts (DML STATEMENT, HOWEVER REQUIRED HERE)
 INSERT INTO tipos_produto (descricao) VALUES ('Computadores'); -- inserting in the table tipos_produto
 INSERT INTO tipos_produto (descricao) VALUES ('Impressoras');
 
