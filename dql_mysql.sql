@@ -1,3 +1,4 @@
+-- Active: 1670859966277@@127.0.0.1@3306@secao04
 
 -- DQL -> Data Query Language studies and pratice
 CREATE DATABASE secao04;
@@ -27,6 +28,8 @@ INSERT INTO produto (descricao, preco, codigo_tipo) VALUES ('Desktop', '1200', 1
 INSERT INTO produto (descricao, preco, codigo_tipo) VALUES ('Laptop', '1800', 1); 
 INSERT INTO produto (descricao, preco, codigo_tipo) VALUES ('Impressora Jato de Tinta', '300', 2); 
 INSERT INTO produto (descricao, preco, codigo_tipo) VALUES ('Impressora Laser', '500', 2); 
+INSERT INTO produto (descricao, preco, codigo_tipo) VALUES ('Notebook', '2000', 1); 
+
 
 -- QUERIES (CONSULTATIONS)
 
