@@ -11,4 +11,3 @@ COMMIT; -- Depois do START TRANSACTION os dados só serão gravados no banco de 
 START TRANSACTION; 
     INSERT INTO pessoas (nome, ano_nascimento, altura) VALUES ('Irene Costa', 2017, 100);
 ROLLBACK; -- não será adicionado na tabela, pois o ROLLBACK não grava a transação no banco de dados.
-C:\Users\Pedro\Documents\mysql_sqlserver_fundamentals\dtl_mysql.sql
